@@ -10,16 +10,16 @@
 
 int main(int argc, const char * argv[]) {
     
-    int x, y;
-    x = 0;
-    y = 0;
+    int a, b;
+    a = 0;
+    b = 0;
     
-    printf("Saisir x : ");
-    scanf("%d",&x);
-    printf("Saisir y : ");
-    scanf("%d",&y);
+    printf("Saisir a : ");
+    scanf("%d",&a);
+    printf("Saisir b : ");
+    scanf("%d",&b);
     
-    printf("La somme de x + y = %d", x+y);
+    printf("La somme de a + b = %d", a+b);
     printf("\n");
     return 0;
 }
