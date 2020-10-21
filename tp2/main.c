@@ -10,16 +10,19 @@
 
 int main(int argc, const char * argv[]) {
     
-    int a, b;
-    a = 0;
-    b = 0;
-    
-    printf("Saisir a : ");
-    scanf("%d",&a);
-    printf("Saisir b : ");
-    scanf("%d",&b);
-    
-    printf("La somme de a + b = %d", a+b);
-    printf("\n");
+    for(int i = 1; i < 100; i++){
+        if(i%3 == 0 && i%5 == 0){
+            printf("FizzBuzz\n");
+        }
+        else if(i%3 == 0){
+            printf("Fizz\n");
+        }
+        else if(i%5==0){
+            printf("Buzz\n");
+        }
+        else{
+            printf("%d\n", i);
+        }
+    }
     return 0;
 }
